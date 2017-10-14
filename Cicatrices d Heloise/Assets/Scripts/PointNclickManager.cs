@@ -64,6 +64,9 @@ public class PointNclickManager : MonoBehaviour
     public Color curseurBasicColor;
     public Color curseurOnObjectColor;
 
+    public AudioSource ObjectFound;
+
+
     //Le sprite renderer du curseur
     SpriteRenderer spriteRend;
 
@@ -202,6 +205,8 @@ public class PointNclickManager : MonoBehaviour
         bdd = BoiteDeDialogueManager.GetComponent<BoiteDeDialogue>();
         ivt = InventaireMangers.GetComponent<Inventaire>();
         dico = DicoManager.GetComponent<Dictionnaire>();
+
+        ObjectFound = GetComponent<AudioSource>();
     }
     
     void Update()
@@ -341,6 +346,7 @@ public class PointNclickManager : MonoBehaviour
             spriteRend.color = curseurOnObjectColor;
             nameOfCollision = col.gameObject.name;
             objetCollision = col.gameObject;
+            ObjectFound.Play();
         }
     }
 

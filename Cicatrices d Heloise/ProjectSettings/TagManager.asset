@@ -8,6 +8,7 @@ TagManager:
   - Ramassable
   - Curseur
   - Objet
+  - Boundary
   layers:
   - Default
   - TransparentFX
