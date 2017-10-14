@@ -1,0 +1,3 @@
+0
+0
+Une tour RAID. Les données sont sécurisées sur plusieurs disques durs qui tournent en parallèle.

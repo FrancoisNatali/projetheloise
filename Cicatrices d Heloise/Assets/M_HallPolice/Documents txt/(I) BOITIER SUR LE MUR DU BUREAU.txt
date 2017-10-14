@@ -1,0 +1,5 @@
+0
+0
+C'est le compteur nanotruc qui donne en temps réel le dépenses énergétiques du batiment entier.
+C'est maintenant obligatoire de le laisser accessible au public dans les bureaux, pour que chacun puisse vérifier qu'il ne dépasse pas le quota de sa station de travail.
+Le nanotruc nous a sauvé, mais il n'est pas question de l'utiliser n'importe comment...

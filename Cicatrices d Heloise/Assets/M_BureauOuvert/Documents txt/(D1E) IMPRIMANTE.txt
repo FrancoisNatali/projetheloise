@@ -1,0 +1,8 @@
+0
+0
+On dirait une vieille imprimante, mais...
+S'il elle est reliée au nodus, elle a forcément été modifiée.
+Vu qu'il n'y a pas de clavier, j'imagine que le nodus enregistre directement la voix et envoie les données à l'imprimante.
+Il peut surement aussi digitaliser les documents papiers et réussir à intégrer chaque mot.
+Incroyable quand même cette technologie...
+Dommage qu'il faille toujours remplacer la cartouche cyan pour lancer une impression noir et blanc.

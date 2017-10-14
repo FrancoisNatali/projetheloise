@@ -1,0 +1,4 @@
+0
+0
+Un nodus.
+Chaque élément électronique est relié à un nodus et les deux se transmettent des données en temps réel.

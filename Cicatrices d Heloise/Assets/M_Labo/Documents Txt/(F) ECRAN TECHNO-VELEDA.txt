@@ -1,0 +1,6 @@
+0
+0
+Un des seuls objets de la pièce que je connais bien.
+C'est un écran mémoire.
+On peut dessiner dessus et envoyer directement les données via nodule, comme le nodule peut générer des images qu'on lui décrit directement.
+Vu l'installation qui l'entoure, j'imagine qu'il doit servir à dessiner des dessins techniques, et les plans doivent ensuite partir vers...
