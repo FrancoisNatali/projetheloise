@@ -9,8 +9,11 @@ public class movingcamera : MonoBehaviour
     public float ScrollEdge = 0.1f;
 
     public float PanSpeed = 10;
-     
- 
+
+    public bool bounds;
+
+    public Vector3 minCameraPos;
+    public Vector3 maxCameraPos;
 
     private Vector2 initialPosition;
 
@@ -51,6 +54,13 @@ public class movingcamera : MonoBehaviour
 
         }
 
+        if (bounds)
+
+        {
+            transform.position = new Vector3(Mathf.Clamp(transform.position.x, minCameraPos.x, maxCameraPos.x),
+              Mathf.Clamp(transform.position.y, minCameraPos.y, maxCameraPos.y),
+              Mathf.Clamp(transform.position.z, minCameraPos.z, maxCameraPos.z));
+            }
 
 
     }
